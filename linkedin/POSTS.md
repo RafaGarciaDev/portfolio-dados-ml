@@ -1,52 +1,24 @@
-# Posts do LinkedIn
+# Posts do LinkedIn — índice
 
-Ritmo: **1 post por semana**. Alternar "o que aprendi" e "o que construí". Sempre com uma imagem (print, gráfico ou foto) e o link do repositório no **primeiro comentário** (link no corpo do post reduz o alcance).
+Os textos ficam **dentro de cada projeto**, no `LINKEDIN.md`. Aqui é só o calendário geral.
 
-| # | Semana | Tema | Status |
-|---|---|---|---|
-| 1 | 1 | Anúncio da jornada | ✅ pronto para publicar |
-| 2 | 2 | O que aprendi de SQL em 1 semana | rascunho |
-| 3 | 3 | JOIN explicado com um exemplo de RH | rascunho |
-| 4 | 4 | Entrega do Projeto 01 | a escrever |
+Ritmo: **1 post por semana**, alternando "o que aprendi" e "o que construí". Imagem em todo post; link do GitHub **no primeiro comentário** (link no corpo do post reduz o alcance).
 
----
-
-## Post 1 — Anúncio da jornada ✅
-
-> Imagem sugerida: print do repositório no GitHub ou um quadro com o plano dos 4 meses.
-
-Passei os últimos anos no suporte de TI resolvendo problemas, automatizando planilhas e montando scripts para que as tarefas repetitivas rodassem sozinhas.
-
-Em algum momento percebi que a parte que eu mais gostava não era "consertar". Era olhar os dados e entender **por que** as coisas aconteciam.
-
-Por isso, a partir de hoje começo uma jornada pública de 4 meses rumo à área de **Análise de Dados com Machine Learning**:
-
-📊 Mês 1 — SQL e estatística
-🐍 Mês 2 — Python, pandas e Power BI
-🤖 Mês 3 — Machine learning (prevendo rotatividade de funcionários)
-📈 Mês 4 — Previsão de demanda de chamados de suporte
-
-Os projetos usam temas que conheço de perto: RH e suporte de TI. Tudo com dados públicos e código aberto no GitHub.
-
-Toda semana vou compartilhar aqui o que aprendi, o que deu errado e o que construí.
-
-Se você trabalha com dados, qual conselho daria para quem está começando? 👇
-
-#AnaliseDeDados #MachineLearning #SQL #Python #PowerBI #TransicaoDeCarreira
-
-> Primeiro comentário: "Repositório com o plano e os projetos: https://github.com/RafaGarciaDev/portfolio-dados-ml"
-
----
-
-## Post 2 — O que aprendi de SQL em 1 semana (rascunho)
-
-- Gancho: "Uma semana de SQL e já respondi uma pergunta que levava uma tarde no Excel."
-- 3 comandos que mais usei: `GROUP BY`, `WHERE`, `ORDER BY`, com um exemplo real.
-- O que travou: `<anotar durante a semana>`.
-- Pergunta final para engajar.
-
-## Post 3 — JOIN explicado com um exemplo de RH (rascunho)
-
-- Imagem: duas tabelas (funcionários e áreas) e o resultado do JOIN.
-- Explicar INNER x LEFT JOIN em 3 linhas, sem jargão.
-- Erro comum: linhas duplicadas depois do JOIN, e como perceber.
+| # | Semana | Projeto | Tema | Texto |
+|---|---|---|---|---|
+| 1 | 02/11 | 01 · SQL | Anúncio da jornada | [P01](../projetos/01-sql-analise-rh/LINKEDIN.md#post-1--anúncio-da-jornada) |
+| 2 | 09/11 | 01 · SQL | O que aprendi de SQL em 1 semana | [P01](../projetos/01-sql-analise-rh/LINKEDIN.md) |
+| 3 | 16/11 | 01 · SQL | JOIN explicado com um exemplo de RH | [P01](../projetos/01-sql-analise-rh/LINKEDIN.md) |
+| 4 | 23/11 | 01 · SQL | **Entrega do Projeto 01** | [P01](../projetos/01-sql-analise-rh/LINKEDIN.md) |
+| 5 | 30/11 | 02 · Power BI | Do Excel para o Python | [P02](../projetos/02-dashboard-chamados/LINKEDIN.md) |
+| 6 | 07/12 | 02 · Power BI | 3 problemas limpando os dados | [P02](../projetos/02-dashboard-chamados/LINKEDIN.md) |
+| 7 | 14/12 | 02 · Power BI | Um gráfico e o que ele revela | [P02](../projetos/02-dashboard-chamados/LINKEDIN.md) |
+| 8 | 21/12 | 02 · Power BI | **Entrega do Projeto 02** | [P02](../projetos/02-dashboard-chamados/LINKEDIN.md) |
+| 9 | 28/12 | 03 · ML | O que é ML, explicado com RH | [P03](../projetos/03-ml-previsao-rotatividade/LINKEDIN.md) |
+| 10 | 04/01 | 03 · ML | Acurácia de 85% pode ser ruim | [P03](../projetos/03-ml-previsao-rotatividade/LINKEDIN.md) |
+| 11 | 11/01 | 03 · ML | Matriz de confusão sem jargão | [P03](../projetos/03-ml-previsao-rotatividade/LINKEDIN.md) |
+| 12 | 18/01 | 03 · ML | **Entrega do Projeto 03** | [P03](../projetos/03-ml-previsao-rotatividade/LINKEDIN.md) |
+| 13 | 25/01 | 04 · Previsão | A segunda-feira do suporte | [P04](../projetos/04-previsao-demanda-chamados/LINKEDIN.md) |
+| 14 | 01/02 | 04 · Previsão | O modelo mais burro possível | [P04](../projetos/04-previsao-demanda-chamados/LINKEDIN.md) |
+| 15 | 08/02 | 04 · Previsão | Tipos de chamado achados sozinhos | [P04](../projetos/04-previsao-demanda-chamados/LINKEDIN.md) |
+| 16 | 15/02 | 04 · Previsão | **Fechamento dos 4 meses** | [P04](../projetos/04-previsao-demanda-chamados/LINKEDIN.md) |

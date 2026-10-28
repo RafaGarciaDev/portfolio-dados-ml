@@ -6,16 +6,28 @@ Jornada pública de 4 meses do suporte de TI para a análise de dados com ML. Ca
 
 ## Projetos
 
-| # | Projeto | Pergunta de negócio | Técnicas | Status |
-|---|---|---|---|---|
-| 01 | [Análise de RH com SQL](projetos/01-sql-analise-rh/) | Onde se concentram rotatividade e faltas? | SQL, CTE, funções de janela, estatística | 🔜 |
-| 02 | [Dashboard de chamados](projetos/02-dashboard-chamados/) | O suporte cumpre o SLA? Onde está o gargalo? | pandas, EDA, Power BI | 🔜 |
-| 03 | [Previsão de rotatividade](projetos/03-ml-previsao-rotatividade/) | Quem tem mais risco de sair? | Classificação, Random Forest, boosting | 🔜 |
-| 04 | [Previsão de demanda de chamados](projetos/04-previsao-demanda-chamados/) | Quantos chamados vêm na próxima semana? | Séries temporais, K-Means | 🔜 |
+| # | Projeto | Pergunta de negócio | Ferramentas | Período | Status |
+|---|---|---|---|---|---|
+| 01 | [Análise de RH com SQL](projetos/01-sql-analise-rh/) | Onde se concentram rotatividade e faltas? | SQLite, SQL (CTE, janelas), Excel | nov/2026 | 🔜 |
+| 02 | [Dashboard de chamados](projetos/02-dashboard-chamados/) | O suporte cumpre o SLA? Onde está o gargalo? | Python, pandas, seaborn, Power BI | dez/2026 | 🔜 |
+| 03 | [Previsão de rotatividade](projetos/03-ml-previsao-rotatividade/) | Quem tem mais risco de sair? | scikit-learn (logística, Random Forest, boosting) | jan/2027 | 🔜 |
+| 04 | [Previsão de demanda de chamados](projetos/04-previsao-demanda-chamados/) | Quantos chamados vêm na próxima semana? | statsmodels, scikit-learn (K-Means) | fev/2027 | 🔜 |
+
+Cada projeto tem a mesma estrutura:
+
+```
+projetos/NN-nome/
+├── README.md      ← problema, ferramentas, resultados (vitrine)
+├── ROTEIRO.md     ← o que estudar e fazer em cada semana + comandos de git
+├── LINKEDIN.md    ← os 4 posts do projeto
+├── dados/         ← fonte, licença e dicionário de dados
+├── sql/ ou notebooks/  (+ powerbi/ no 02)
+└── imagens/       ← prints e gráficos
+```
 
 ## Plano
 
-O roteiro semana a semana está em [PLANO_DE_ESTUDO.md](PLANO_DE_ESTUDO.md).
+O roteiro geral está em [PLANO_DE_ESTUDO.md](PLANO_DE_ESTUDO.md) e o calendário de posts em [linkedin/POSTS.md](linkedin/POSTS.md).
 
 ## Como rodar
 

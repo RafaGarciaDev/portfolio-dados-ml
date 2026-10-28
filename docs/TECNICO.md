@@ -14,7 +14,7 @@ Duplique este arquivo dentro do projeto (ex.: `docs/TECNICO.md` ou o `README` do
 | **Status** | 🟡 Beta — estrutura criada, projetos a começar |
 | **Responsável (accountable)** | Rafael Garcia (GitHub @RafaGarciaDev) |
 | **Mantenedor(es)** | Rafael Garcia |
-| **Versão** | 0.1.0 (`versao.py`, `pyproject.toml`, `CHANGELOG.md`) |
+| **Versão** | 0.2.0 (`versao.py`, `pyproject.toml`, `CHANGELOG.md`) |
 | **Última atualização** | 2026-10-28 por Claude Code |
 | **URL de produção** | Não se aplica — portfólio, sem sistema no ar |
 | **Código-fonte** | https://github.com/RafaGarciaDev/portfolio-dados-ml (cópia oficial; a pasta local é só cópia de trabalho) |
@@ -645,7 +645,7 @@ ruff format --check .
 > 🎯 **Propósito** — Um histórico legível das mudanças relevantes.
 > ✍️ **Como preencher** — O histórico completo fica **só** no [`CHANGELOG.md`](../CHANGELOG.md) da raiz (regra da skill `registrar-changelog-do-projeto`). Aqui, apenas a versão atual e o link — não duplicar entradas.
 
-**Versão atual:** 0.1.0 — 2026-10-28 · histórico completo em [`CHANGELOG.md`](../CHANGELOG.md).
+**Versão atual:** 0.2.0 — 2026-10-28 · histórico completo em [`CHANGELOG.md`](../CHANGELOG.md).
 
 ---
 

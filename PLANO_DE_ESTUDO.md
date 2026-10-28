@@ -6,6 +6,15 @@
 
 **Regra de ouro:** cada mês termina com **um projeto publicado** e **um post de entrega**. Estudar sem publicar não conta para o portfólio.
 
+**Detalhe de cada mês:** o `ROTEIRO.md` de cada projeto tem as tarefas da semana, os comandos de git e a versão de fechamento; o `LINKEDIN.md` tem os 4 posts.
+
+| Projeto | Fecha com a versão | Tag no GitHub |
+|---|---|---|
+| 01 · SQL | 0.3.0 | `p01-concluido` |
+| 02 · Power BI | 0.4.0 | `p02-concluido` |
+| 03 · ML | 0.5.0 | `p03-concluido` |
+| 04 · Previsão | 1.0.0 | `p04-concluido` + `v1.0.0` |
+
 ---
 
 ## Mês 1 — SQL + estatística → [Projeto 01](projetos/01-sql-analise-rh/)

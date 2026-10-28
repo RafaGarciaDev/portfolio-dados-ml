@@ -221,10 +221,14 @@ Duplique este arquivo e preencha cada `<PLACEHOLDER>`. Serve para qualquer ferra
 > 🎯 **Propósito** — Contar ao usuário o que mudou (só o que ele percebe).
 > ✍️ **Como preencher** — Mais recente primeiro. Foque em benefícios, não em detalhes técnicos.
 
+**Versão 0.2.0 — 2026-10-28**
+
+* ✨ Cada projeto agora tem tudo numa pasta só: o que estudar em cada semana (`ROTEIRO.md`), os posts do LinkedIn (`LINKEDIN.md`) e os arquivos de trabalho já criados (consultas SQL e notebooks).
+* ✨ O calendário dos 16 posts está em `linkedin/POSTS.md`.
+
 **Versão 0.1.0 — 2026-10-28**
 
-* ✨ `<TODO — ex.: Agora você recebe um aviso quando sua solicitação é aprovada>`.
-* 🐛 `<TODO — ex.: Corrigimos a contagem de dias na virada de mês>`.
+* ✨ Plano de estudo de 4 meses, pastas dos 4 projetos e o primeiro post do LinkedIn pronto.
 
 ---
 
