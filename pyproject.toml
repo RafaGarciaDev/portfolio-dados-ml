@@ -1,0 +1,16 @@
+[project]
+name = "portfolio-dados-ml"
+version = "0.1.0"
+description = "Portfólio de análise de dados e machine learning com temas de RH e suporte de TI"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]

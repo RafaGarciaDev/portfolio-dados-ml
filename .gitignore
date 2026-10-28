@@ -1,0 +1,20 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Segredos e configuração local
+.env
+
+# Dados grandes ou privados nunca sobem (ver REQUISITOS.md — só dados públicos ou sintéticos)
+dados/privados/
+*.parquet
+
+# Sistema
+Thumbs.db
+desktop.ini
